@@ -1,0 +1,165 @@
+.mw {
+  max-width: 1440px;
+  width: calc(100% -4rem);
+  margin: auto;
+}
+
+/* header */
+
+.hd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.gnb {
+  display: flex;
+}
+
+.gnb .logo img {
+  width: 200px;
+}
+
+.gnb .menu {
+  position: absolute;
+  right: 20%;
+  bottom: 0.5rem;
+}
+
+.gnb .menu a {
+  margin: 0.5rem 3rem;
+}
+
+.hd .person {
+  position: relative;
+}
+.hd .person::before {
+  content: "|";
+  position: absolute;
+  left: -30px;
+}
+.hd .person i {
+  width: 30px;
+  margin-right: 1rem;
+}
+
+/* Main / MainEvent Sec1 */
+
+.sec1 {
+  margin-top: 2rem;
+
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.sec1 .slide_title {
+  z-index: 2;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  color: white;
+}
+
+.sec1 .slide_title strong {
+  font-size: 36px;
+}
+.sec1 .slide_title span {
+  display: block;
+  font-size: 24px;
+  margin: 0.5rem 0 5rem 0;
+}
+.sec1 .slide_title a {
+  margin-top: 3rem;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: white;
+}
+.sec1 .mySwiper {
+  height: 50vh;
+}
+.sec1 .mySwiper img {
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* sec2  MainTop*/
+
+.sec2 {
+  margin-top: 4rem;
+}
+.sec2 h1 {
+  margin-top: 3rem auto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.sec2_con {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 3rem;
+  margin: 2rem 1rem;
+}
+.sec2_con img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.sec2_con li span {
+  display: block;
+  padding: 0.5rem;
+}
+.sec2_con .sc_title {
+  font-size: 1.5rem;
+}
+.sec2_con .sc_price {
+  font-size: 1rem;
+  color: brown;
+}
+
+/* footer */
+
+.footAll {
+  margin-top: 4rem;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.footAll .foot_left {
+  margin-top: 2rem;
+}
+.footAll .foot_left span {
+  margin: 3rem 3rem 0 0;
+}
+.footAll .foot_left p {
+  margin-top: 2rem;
+}
+.footAll .foot_left strong {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.footAll .foot_right {
+  /* border: 1px solid blue; */
+  width: 30%;
+}
+
+.footAll .foot_right p {
+  border-bottom: 1px solid;
+  margin-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.footAll .foot_right div {
+  margin-top: 2rem;
+}
+
+.footAll .foot_right div i {
+  margin: 0 2rem;
+  width: 40px;
+}
